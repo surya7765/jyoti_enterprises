@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Careers</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- <link rel="stylesheet" href="jyoti.css"> -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.8/angular-material.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;531;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=David+Libre&family=Nunito:ital,wght@0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+
+
+
+	<style media="screen">
+		.card-content {
+			/* padding:5px 0px; */
+			/* font-size: 20px; */
+			font-weight: bold;
+			color: #000000;
+		}
+
+		.brand-logo {
+			font-family: 'Catamaran', sans-serif;
+			font-weight: 700;
+			padding-left: 25px;
+		}
+
+		.changed {
+			padding: 30px;
+		}
+.card{
+	border-radius: 25px;
+}
+
+		.card-title {
+			font-size: 25px;
+			font-weight: bolder;
+			color: blue;
+			text-align: center;
+			padding: 10px;
+		}
+
+
+		.col {
+			margin: 10px 10px 10px 30px !important;
+		}
+
+		.line {
+			height: 4px;
+			position: absolute;
+			bottom: 0;
+			background: #FF1847;
+		}
+
+
+		.social {
+			margin: 5px;
+		}
+
+
+		.nav-wrapper {
+			background-color: black;
+		}
+
+		.contact-icon a i {
+			display: inline-block;
+			width: 1000px;
+			height: 50px;
+			float: left;
+		}
+
+		nav a{
+		    text-transform: uppercase;
+		    font-weight: 50;
+		   }
+
+
+		nav li a {
+			color: #FFF;
+			transition: all 0.3s;
+			position: relative;
+		}
+
+		nav li a::before {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			opacity: 0;
+			transition: all 0.3s;
+			border-top: rgba(0, 31, 255, 0.93) 3px solid;
+			border-bottom: rgba(0, 31, 255, 0.93) 3px solid;
+			transform: scale(0.1, 1);
+		}
+
+		nav li a:hover::before {
+			opacity: 1;
+			transform: scale(1, 1);
+			background-color: rgba(159, 159, 233, 0.48);
+		}
+
+
+</style>
+
+
+
+
+</head>
+
+
+<body>
+	<div class="navbar-fixed">
+		<nav class="nav-wrapper blue">
+			<div>
+				<a href="index.html" class="brand-logo" style="font-size:3vw; padding-left: 25px">Jyoti Enterprises</a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger">
+					<i class="material-icons">menu</i>
+				</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="index.html">Home</a></li>
+					<li><a class="dropdown-trigger" data-target="dropdown1" href="#name">Products<i class="material-icons right">arrow_drop_down</i></a></li>
+					<li><a href="about.html" class="waves-effect waves-blue">about</a></li>
+					<li><a class="modal-trigger" href="#modal1">Visit</a></li>
+					<li><a href="#">Career</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+
+	<!-- Dropdwon in navbar -->
+
+	<ul id="dropdown1" class="dropdown-content">
+		<li><a href="statue.html">Stone Statue</a></li>
+		<li class="divider"></li>
+		<li><a href="wall.html">Wall Panel</a></li>
+		<li class="divider"></li>
+		<li><a href="mdf.html">MDF Panel</a></li>
+		<li class="divider"></li>
+		<li><a href="grill.html">Grill Railing</a></li>
+		<li class="divider"></li>
+		<li><a href="door.html">Door Frame</a></li>
+		<li class="divider"></li>
+		<li><a href="tile.html">Tiles</a></li>
+		<li class="divider"></li>
+		<li><a href="more.html">Many Other</a></li>
+		<li class="divider"></li>
+	</ul>
+
+	<ul id="dropdown2" class="dropdown-content">
+		<li><a href="statue.html">Stone Statue</a></li>
+		<li class="divider"></li>
+		<li><a href="wall.html">Wall Panel</a></li>
+		<li class="divider"></li>
+		<li><a href="mdf.html">MDF Panel</a></li>
+		<li class="divider"></li>
+		<li><a href="grill.html">Grill railing</a></li>
+		<li class="divider"></li>
+		<li><a href="door.html">Door Frame</a></li>
+		<li class="divider"></li>
+		<li><a href="tile.html">Tiles</a></li>
+		<li class="divider"></li>
+		<li><a href="more.html">Many Other</a></li>
+		<li class="divider"></li>
+	</ul>
+
+
+
+	<!-- Mobile sidenav -->
+
+	<ul class="sidenav" id="mobile-demo">
+		<li class="divider"></li>
+		<li><a href="index.html" class="waves-effect waves-yellow"><i class="material-icons">home</i>Home</a></li>
+		<li class="divider"></li>
+		<li><a href="#name" class="dropdown-trigger" data-target="dropdown2" class="waves-effect waves-blue"><i class="material-icons">shopping_cart</i>Products<i class="material-icons right">arrow_drop_down</i></a></li>
+		<li class="divider"></li>
+		<li><a href="about.html" class="waves-effect waves-blue"><i class="material-icons">face</i>About</a></li>
+		<li class="divider"></li>
+		<li><a class="modal-trigger waves-effect waves-blue" href="#modal1"><i class="material-icons">location_on</i>Visit</a></li>
+		<li class="divider"></li>
+		<li><a href="#" class="waves-effect waves-blue"><i class="fa fa-graduation-cap"></i>Career</a></li>
+		<li class="divider"></li>
+	</ul>
+
+
+
+
+
+	<!-- <div class="parallax-container">
+    <div class="parallax"><img src="1.jpg"></div>
+</div> -->
+
+
+
+	<div class="container">
+		<h2 class="blue-text text-darken-4" >Career Opportunities</h2>
+		<h4 class="blue-text"style="font-family: 'Crete Round', serif;">Come and join our team at JYOTI ENTERPRISES!</h4>
+		<div class="black-text text-lighten-4">
+			<p class="changed blue-text text-darken-3" style="font-family: 'Nunito', sans-serif;">Jyoti Enterprises is growing and we're looking for talented people to join our team. We can find a position that best fits your skills and experience ,
+				whether you're searching for a new Job or are interested in continuing your career.<br><br>We are committed to elevating the lives of our customers & employees by providing great services with quality products and look for this type of dedication
+				from all our team members.
+				If this sound like you , then come and join the Jyoti Enterprises.</p>
+		</div>
+		<div class="row">
+			<div class="col s8 m4 l2">
+				<div class="card blue lighten-3 z-depth-5">
+					<div class="card-content">
+						<span class="card-title">Technical person:</span>
+						<p class="changed">Position Description:
+							<br><br>
+							We are now hiring for a technical person for CNC machine and it's related toolpath generating software.
+							A friendly , flexible and outgoing person is needed to help with technical work and internal sales. As a valued team member , you should enjoy helping others and possess strong computer skills with the ability to learn and adapt to
+							situation and technology.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="row"> -->
+			<div class="col s12 m6">
+				<div class="card blue lighten-3 z-depth-5">
+					<div class="card-content" style="margin-bottom: 20px;">
+						<span class="card-title">Industry type:</span>
+						<p class="changed">Manufacturer/Wholesale</p>
+					</div>
+				</div>
+				<div class="card blue lighten-3 z-depth-5">
+					<div class="card-content">
+						<span class="card-title">Employment type:</span>
+						<p class="changed">Full time , Permanent</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- </div> -->
+
+
+		<!-- </div> -->
+
+	</div>
+
+
+
+	<div class="container">
+		<div class="row">
+			<div class="card blue lighten-3  z-depth-5">
+				<div class="card-content">
+					<span class="card-title">Job duties and tasks:</span>
+					<p class="changed">Operate CNC 4- axis Rotatory type machine and Robotic - arm for sculpture curving.<br>
+
+						Generate Toolpath on 'Fusion 360' software and 3D- relief work on 'Artcam' software.
+
+						Knowledge of G- Code and M-Code language.
+
+						Effectively able to work on 'Hubspot CRM' .<br>
+						Lead generation follow up and taking initiative to grow sales and customer base. Keeping customers informed of order updates.
+						Effectively communicate with other team members through daily briefing and notes.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div style="padding-bottom: 50px;"></div>
+
+
+	<!-- Modals -->
+
+	<div id="modal1" class="modal">
+		<div class="modal-content">
+			<h4>Visit Us</h4>
+			<div class="container" style="padding: 10px;"><br>
+				<h5>JYOTI ENTERPRISES</h5><br>
+				<ul>
+					<li>Plot No.: 143, Chand(Majhagai)</li>
+					<li>Dist: Kaimur(Bhabua)</li>
+					<li>Pin code: 821106</li>
+					<li>Bihar,India</li>
+					<li>+91 7541985905</li>
+				</ul>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a href="#!" class="modal-close waves-effect waves-green btn-flat">Visited!</a>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<div class="fixed-action-btn">
+		<a id="menu" href="tel://+91 7541985905" class="waves-effect waves-light btn btn-floating">
+			<i class="material-icons open blue">phone</i>
+		</a>
+	</div>
+
+
+	<!-- Tap Target Structure -->
+	<div class="tap-target blue" data-target="menu" style="border: 20%;">
+		<div class="tap-target-content">
+			<h4>Pankaj Kumar</h4>
+			<p><i class="material-icons">phone</i>+91 7541985905</p>
+		</div>
+	</div>
+
+
+	<footer class="page-footer black">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12">
+					<h5 class="white-text">Jyoti Enterprises</h5>
+					<hr><br>
+					<p>We provide best carving design products for interior home design.</p>
+					<p>We use materials based on customer requirements.</p>
+				</div>
+
+				<div class="col l4 offset-l2 s12">
+					<h5 class="white-text">Links</h5>
+					<hr><br>
+					<ul>
+						<li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+						<li><a class="grey-text text-lighten-3" href="about.html">About</a></li>
+						<li><a class="grey-text text-lighten-3" href="index.html">Products</a></li>
+					</ul>
+				</div>
+
+				<div class="col l6 s12">
+					<h5>Address</h5>
+					<hr><br>
+					<p>Plot No.: 143,Chand(Majhagai)</p>
+					<p>Dist: Kaimur(Bhabua)</p>
+					<p>Pin code: 821106</p>
+					<p>Bihar,India</p>
+					<p>+91 7541985905</p>
+				</div>
+
+				<div class="col l6 s12">
+
+					<!-- Social buttons -->
+					<h5>Follow Us</h5>
+					<hr><br>
+					<!-- facebook -->
+					<a href="https://www.facebook.com/jyoti.stonemart/" target="_blank" type="button" class="btn-floating waves-effect blue  social">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+					<!-- Twitter -->
+					<a href="https://instagram.com/jyoti_enterprises01?igshid=1cgm5fmrszmf6" target="_blank" type="button" class="btn-floating  waves-effect pink social">
+						<i class="fab fa-instagram"></i>
+					</a>
+					<!-- whatsapp -->
+					<a href="https://wa.me/message/NNFDGKAEEGSFL1" target="_blank" type="button" class="btn-floating waves-effect green social">
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright grey darken-4" style="border-top: blue 1.5px solid;">
+			<div class="container">
+				<p class="grey-text">Copyright Jyoti Enterprises © 2020. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="jyoti.js"></script>
+
+</html>

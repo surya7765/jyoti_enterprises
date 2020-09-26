@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="jyoti.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.8/angular-material.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;531;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Zilla+Slab:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <title>Jyoti Enterprises</title>
+</head>
+<body>
+
+  <div class="navbar-fixed">
+    <nav class="nav-wrapper blue">
+      <div>
+        <a href="#" class="brand-logo" style="font-size:3vw; padding-left: 25px;">Jyoti Enterprises</a>
+        <a href="#" class="brand-logo center"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a class="dropdown-trigger" data-target="dropdown1" href="#name">Products<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a href="#about" class="waves-effect waves-blue">about</a></li>
+          <li><a class="modal-trigger" href="#modal1">Visit</a></li>
+          <li><a href="career.html">Career</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Dropdwon in navbar -->
+
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="statue.html">Statue stone</a></li>
+    <li class="divider"></li>
+    <li><a href="wall.html">Wall Panel</a></li>
+    <li class="divider"></li>
+    <li><a href="mdf.html">MDF Panel</a></li>
+    <li class="divider"></li>
+    <li><a href="grill.html">Grill Railing</a></li>
+    <li class="divider"></li>
+    <li><a href="door.html">Door Frame</a></li>
+    <li class="divider"></li>
+    <li><a href="tile.html">Tiles</a></li>
+    <li class="divider"></li>
+    <li><a href="more.html">Many Other</a></li>
+    <li class="divider"></li>
+  </ul>
+
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="statue.html">Stone Statue</a></li>
+    <li class="divider"></li>
+    <li><a href="wall.html">Wall Panel</a></li>
+    <li class="divider"></li>
+    <li><a href="mdf.html">MDF Panel</a></li>
+    <li class="divider"></li>
+    <li><a href="grill.html">Grill railing</a></li>
+    <li class="divider"></li>
+    <li><a href="door.html">Door Frame</a></li>
+    <li class="divider"></li>
+    <li><a href="tile.html">Tiles</a></li>
+    <li class="divider"></li>
+    <li><a href="more.html">Many Other</a></li>
+    <li class="divider"></li>
+  </ul>
+
+
+
+  <!-- Mobile sidenav -->
+
+  <ul class="sidenav" id="mobile-demo">
+    <li class="divider"></li>
+    <li><a href="index.html" class="waves-effect waves-yellow"><i class="material-icons">home</i>Home</a></li>
+    <li class="divider"></li>
+    <li><a href="#name" class="dropdown-trigger" data-target="dropdown2" class="waves-effect waves-blue"><i class="material-icons">shopping_cart</i>Products<i class="material-icons right">arrow_drop_down</i></a></li>
+    <li class="divider"></li>
+    <li><a href="#about" class="waves-effect waves-blue"><i class="material-icons">face</i>About</a></li>
+    <li class="divider"></li>
+    <li><a class="modal-trigger waves-effect waves-blue" href="#modal1"><i class="material-icons">location_on</i>Visit</a></li>
+    <li class="divider"></li>
+    <li><a href="career.html" class="waves-effect waves-blue"><i class="fa fa-graduation-cap"></i>Career</a></li>
+    <li class="divider"></li>
+  </ul>
+
+
+
+
+  <!-- Start parallax -->
+
+  <div class="slider fullscreen">
+    <ul class="slides">
+      <li>
+        <img class="sliders" src="img2.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h3 style="font-family: 'Comfortaa', cursive;">CNC Machine</h3>
+          <h5 class="light white-text text-darken-3" style="margin-top:60px; font-family: 'Dosis', sans-serif;">Metals material cut by plasma CNC</h5>
+        </div>
+      </li>
+      <li>
+        <img class="sliders" src="img3.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h3 class="light grey-text text-darken-4" style="font-family: 'Comfortaa', cursive;">Robotic Arm</h3>
+          <h5 class="light grey-text text-darken-4" style="margin-top:90px;font-family: 'Dosis', sans-serif;">Accurate 360 sculpture engraving through Robotic arm</h5>
+        </div>
+      </li>
+      <li>
+        <img class="sliders" src="img1.jpeg"> <!-- random image -->
+        <div class="caption center-align">
+          <h3 style="font-family: 'Comfortaa', cursive;">CNC Machine</h3>
+          <h5 class="light white-text text-lighten-3" style="margin-top:60px;font-family: 'Dosis', sans-serif;">Precise cut by CNC machine</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+  <!-- Features -->
+
+  <section style="margin-top:620px;">
+    <div class="container center">
+      <h4 class="center blue-text text-darken-4" style="font-family: 'Comfortaa', cursive;">Outstanding Services</h4><br>
+      <li class="divider blue center" style="width:250px;"></li>
+      <div class="row">
+        <div class="col s12 l4 center" style="padding: 50px;">
+          <i class="large material-icons circle" style="color: #2962ff;">access_time</i>
+          <h5 style="color: #448aff;font-family: 'Zilla Slab', serif;">Delivery on time</h5>
+        </div>
+        <div class="col s12 l3 center" style="padding: 50px;">
+          <i class="large material-icons circle" style="color: #2962ff;">whatshot</i>
+          <h5 style="color: #448aff;font-family: 'Zilla Slab', serif;">Quality Products</h5>
+        </div>
+        <div class="col s12 l4 center" style="padding: 50px;">
+          <i class="large material-icons circle" style="color: #2962ff;">favorite_border</i>
+          <h5 style="color: #448aff;font-family: 'Zilla Slab', serif;">People's Choice</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- start carousel -->
+
+  <div class="section blue lighten-5" id="name">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="blue-text text-darken-4 center" style="padding: 20px;  margin-left:-50px; font-family: 'Catamaran', sans-serif; font-weight:500px;">CATEGORIES</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card medium img z-depth-3 ">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="statue/img2.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Statue Stone<i class="material-icons right">expand_less</i></span>
+              <li class="divider" style="margin-bottom: 5px;"></li>
+              <p><a href="statue.html" class="btn waves-effect waves-blue blue right">5+ Products</a></p>
+            </div>
+            <div class="card-reveal brown lighten-4">
+              <span class="card-title grey-text text-darken-4">Buddha Statue<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Colour: Lite pink</li><br>
+                <li>Name: Buddha statue in Updesh-Mudra</li><br>
+                <li>Dimension: 4" * 2.5" * 0.8'</li><br><br>
+                <li class="divider" style="margin-bottom: 5px;"></li>
+                <a href="statue.html" class="btn waves-effect waves-blue blue right">5+ Products</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card  medium img  z-depth-3">
+            <div class="card-image waves-effect waves-block waves-light img">
+              <img class="activator" src="wall/wall1.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Wall Panel<i class="material-icons right">expand_less</i></span>
+              <li class="divider" style="margin-bottom: 5px;"></li>
+              <p><a href="wall.html" class="btn waves-effect waves-blue blue right">5+ Products</a></p>
+            </div>
+            <div class="card-reveal brown lighten-4">
+              <span class="card-title grey-text text-darken-4">Wall Panel<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Name : Marble wall decoration panel</li><br>
+                <li>Dimension: 3" *3"(feet)</li><br><br>
+                <li class="divider" style="margin-bottom: 5px;"></li>
+                <a href="wall.html" class="btn waves-effect waves-blue blue right">5+ Products</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card  medium img z-depth-3">
+            <div class="card-image waves-effect waves-block waves-light img">
+              <img class="activator" src="mdf/mdf4.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">MDF Panel<i class="material-icons right">expand_less</i></span>
+              <li class="divider" style="margin-bottom: 5px;"></li>
+              <p><a href="mdf.html" class="btn waves-effect waves-blue blue right">5+ Products</a></p>
+            </div>
+            <div class="card-reveal brown lighten-4">
+              <span class="card-title grey-text text-darken-4">MDF Panel<i class="material-icons right">close</i></span>
+              <ul>
+                <li>MDF panel for room dividing in office</li><br>
+                <li>Material: MDF</li><br>
+                <li>Dimension: 6" * 5"</li><br><br>
+                <li class="divider" style="margin-bottom: 5px;"></li>
+                <a href="mdf.html" class="btn waves-effect waves-blue blue  right">5+ Products</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card  medium img z-depth-3">
+            <div class="card-image waves-effect waves-block waves-light img">
+              <img class="activator" src="grill/1.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Grill Railing<i class="material-icons right">expand_less</i></span>
+              <li class="divider" style="margin-bottom: 5px;"></li>
+              <p><a href="grill.html" class="btn waves-effect waves-blue blue right">10+ Products</a></p>
+            </div>
+            <div class="card-reveal brown lighten-4">
+              <span class="card-title grey-text text-darken-4">Grill-Railing<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Material: Blue Stone</li><br>
+                <li>Color: Blue</li><br>
+                <li>Dimension: 2.5" * 2.5 "</li><br><br>
+                <li class="divider" style="margin-bottom: 5px;"></li>
+                <a href="grill.html" class="btn waves-effect waves-blue blue right">11+ Products</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card  medium img z-depth-3">
+            <div class="card-image waves-effect waves-block waves-light img">
+              <img class="activator" src="door/6.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Door Frame<i class="material-icons right">expand_less</i></span>
+              <li class="divider" style="margin-bottom: 5px;"></li>
+              <p><a href="door.html" class="btn waves-effect waves-blue blue right">5+ Products</a></p>
+            </div>
+            <div class="card-reveal brown lighten-4">
+              <span class="card-title grey-text text-darken-4">Door Frame<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Material: Wood</li><br>
+                <li>Color: Brown</li><br>
+                <li>Dimension: 5" * 5 "</li><br><br>
+                <li class="divider" style="margin-bottom: 5px;"></li>
+                <a href="door.html" class="btn waves-effect waves-blue blue right">5+ Products</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="card  medium img z-depth-3">
+            <div class="card-image waves-effect waves-block waves-green img">
+              <img class="activator" src="tiles/2.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Tiles<i class="material-icons right">expand_less</i></span>
+              <li class="divider" style="margin-bottom: 5px;"></li>
+              <p><a href="tile.html" class="btn waves-effect waves-blue blue right">5+ Products</a></p>
+            </div>
+            <div class="card-reveal brown lighten-4">
+              <span class="card-title grey-text text-darken-4">Tiles<i class="material-icons right">close</i></span>
+              <ul>
+                <li>Material: Marble</li><br>
+                <li>Color: Brown</li><br>
+                <li>Dimension: 1" * 2"</li><br><br>
+                <li class="divider" style="margin-bottom: 5px;"></li>
+                <a href="tile.html" class="btn waves-effect waves-blue blue right">5+ Products</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin: 0 auto;">
+          <div class="col s6">
+            <div class="card medium img z-depth-3">
+              <div class="card-image waves-effect waves-block waves-green img">
+                <img class="activator" src="more/img3.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Other Products<i class="material-icons right">expand_less</i></span>
+                <li class="divider" style="margin-bottom: 5px;"></li>
+                <p><a href="more.html" class="btn waves-effect waves-blue blue right">view all</a></p>
+              </div>
+              <div class="card-reveal brown lighten-4">
+                <span class="card-title grey-text text-darken-4">Kitchen counter top<i class="material-icons right">close</i></span>
+                <ul>
+                  <li>Material: Granite</li><br>
+                  <li>Color: yellow</li><br>
+                  <li>Dimension: 4" * 8"</li><br><br>
+                  <li class="divider" style="margin-bottom: 5px;"></li>
+                  <a href="more.html" class="btn waves-effect waves-blue blue right">view all</a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end carousel -->
+  <section>
+    <div class="parallax-container" style="height:400px;">
+      <div class="parallax">
+        <img class="responsive-img" src="img5.jpg">
+      </div>
+    </div>
+  </section>
+
+  <section class="About " id="about">
+    <div class="section blue lighten-5">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m4 l2">
+            <h2 class="center " style="font-family: 'Varela Round', sans-serif;">About Us</h2>
+            <li class="divider blue center z-depth-3" style="width:250px;"></li><br>
+            <p class="grey-text text-darken-3" id="ab_nav">
+              JYOTI ENTERPRISES is a sculpture, statue, 3-D work on metal, wood, MDF and stone supplier firm. We provide work such as engraving, sculpting, designing, cutting, turning, polishing and grinding on various types of stone, wood and other
+              materials.
+              We love to elevate the lives of customers and help them to make the home of their dreams a reality !
+              With our highly experienced Techno- commercial management and strongly motivated team of skilled workers, we always endeavour our best to provide everlasting value to our customers.
+            </p>
+            <center><a class="waves-effect waves-light btn blue" href="about.html"style="margin-top:10px;">more...</a></center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- End parallax -->
+
+
+
+  <!-- Let me know If you are interested -->
+
+  <div class="container center blue lighten-5 z-depth-1 sending" style="border: 1px solid blue; border-radius: 30px; margin-top:50px;">
+    <h4 class="light blue-text text-darken-4" style="font-family: 'Grenze Gotisch', cursive;">Let us know if you are interested.</h4>
+    <div class="row" style="margin:20px;">
+      <form class="col s6" action="mailto:infojyotienterprises01@gmail.com" method="post" enctype="text/plain">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" name="Name" type="text" class="validate" required>
+          <label for="icon_prefix">Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" name="Phone " type="tel" class="validate" required>
+          <label for="icon_telephone">Mobile no.</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">mode_edit</i>
+          <textarea id="icon_prefix2" name="message " class="materialize-textarea"></textarea>
+          <label for="icon_prefix2" name="message ">Inquiry details</label>
+        </div>
+        <div class="col s6 " style="padding:20px;">
+          <button id="Submit" class="btn waves-effect waves-light blue z-depth-2" type="submit">Mail us
+            <i class="material-icons right update">mail</i>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- Testimonial -->
+
+  <section>
+    <div class="container center white" style="margin-top:50px; margin-bottom:50px;">
+      <h3 class="light blue-text text-darken-4" style="font-family: 'Grenze Gotisch', cursive;">Testimonials</h3>
+      <li class="divider blue center" style="width:300px;"></li>
+      <div class="carousel">
+        <a class="carousel-item"style="height:300px" style="height:300px">
+          <div class="row">
+            <div class="col s10 l4">
+              <div class="card-panel indigo accent-1">
+                <h5 class="white-text" style="font-family: 'Yanone Kaffeesatz', sans-serif;">1st review</h5><hr><br>
+                <p class="white-text text-darken-4" style="font-family: 'Raleway', sans-serif;">Our tile shipped fast and was received with no issues.
+                  The website was easy to shop and recommended. Amazing collection.
+                  Love to shop with them ❤️</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item"style="height:300px">
+          <div class="row">
+            <div class="col s10 l4">
+              <div class="card-panel indigo accent-1">
+                <h5 class="white-text" style="font-family: 'Yanone Kaffeesatz', sans-serif;">2nd review</h5><hr><br>
+                <p class="white-text text-darken-4" style="font-family: 'Raleway', sans-serif;">Very professional and quick response from Customer support.
+                  Great price and good service, saved alot of money!</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item"style="height:300px">
+          <div class="row">
+            <div class="col s10 l4">
+              <div class="card-panel indigo accent-1">
+                <h5 class="white-text" style="font-family: 'Yanone Kaffeesatz', sans-serif;">3rd review</h5><hr><br>
+                <p class="white-text text-darken-4" style="font-family: 'Raleway', sans-serif;">Great phone service. Easy order and checkout. Good delivery time. Great customer service.Would order from them again. &#x2764;</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item"style="height:300px">
+          <div class="row">
+            <div class="col s10 l4">
+              <div class="card-panel indigo accent-1">
+                <h5 class="white-text" style="font-family: 'Yanone Kaffeesatz', sans-serif;">4th review</h5><hr><br>
+                <p class="white-text text-darken-4" style="font-family: 'Raleway', sans-serif;">My experience could not have been better. Personalized service in an online channel is rare. This Company exceeded my expectations.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a class="carousel-item"style="height:300px">
+          <div class="row">
+            <div class="col s10 l4">
+              <div class="card-panel indigo accent-1">
+                <h5 class="white-text" style="font-family: 'Yanone Kaffeesatz', sans-serif;">5th review</h5><hr><br>
+                <p class="white-text text-darken-4" style="font-family: 'Raleway', sans-serif;">Professionalism, expertise and excellent service by them made the entire process comfortable and a pleasant experience. 5 STARS to him.</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- Modal  -->
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Visit Us</h4>
+      <div class="container" style="padding: 10px;"><br>
+        <h5>JYOTI ENTERPRISES</h5>
+        <ul>
+          <li>Plot No.: 143, Chand(Majhagai)</li>
+          <li>Dist: Kaimur(Bhabua)</li>
+          <li>Pin code: 821106</li>
+          <li>Bihar,India</li>
+          <li>+91 7541985905</li>
+        </ul>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-close waves-effect waves-green btn-flat">Visited!</a>
+    </div>
+  </div>
+
+
+
+  <!-- Element Showed -->
+  <div class="fixed-action-btn">
+    <a id="menu" href="tel://+91 7541985905" class="waves-effect waves-green btn btn-floating">
+      <i class="material-icons open blue">phone</i>
+    </a>
+  </div>
+
+
+  <!-- Tap Target Structure -->
+  <div class="tap-target blue" data-target="menu" style="border: 20%;">
+    <div class="tap-target-content">
+      <h4>Pankaj Kumar</h4>
+      <p><i class="material-icons">phone</i>+91 7541985905</p>
+    </div>
+  </div>
+
+  <div class="" style="padding:30px;">
+
+  </div>
+
+  <footer class="page-footer black">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col l6 s12">
+  				<h5 class="white-text">Jyoti Enterprises</h5><hr><br>
+  				<p>We provide best carving design products for interior home design.</p>
+  				<p>We use materials based on customer requirements.</p>
+  			</div>
+
+  			<div class="col l4 offset-l2 s12">
+  				<h5 class="white-text">Links</h5><hr><br>
+  				<ul>
+  					<li><a class="grey-text text-lighten-3" href="#">Home</a></li>
+  					<li><a class="grey-text text-lighten-3" href="#about">About</a></li>
+  					<li><a class="grey-text text-lighten-3" href="#name">Products</a></li>
+  				</ul>
+  			</div>
+
+  			<div class="col l6 s12">
+  				<h5>Address</h5><hr><br>
+  				<p>Plot No.: 143,Chand(Majhagai)</p>
+  				<p>Dist: Kaimur(Bhabua)</p>
+  				<p>Pin code: 821106</p>
+  				<p>Bihar,India</p>
+  				<p>+91 7541985905</p>
+  			</div>
+
+  			<div class="col l6 s12">
+
+  				<!-- Social buttons -->
+  				<h5>Follow Us</h5><hr><br>
+  				<!-- facebook -->
+  				<a href="https://www.facebook.com/jyoti.stonemart/" target="_blank" type="button" class="btn-floating waves-effect blue  social">
+  					<i class="fab fa-facebook-f"></i>
+  				</a>
+  				<!-- Twitter -->
+  				<a href="https://instagram.com/jyoti_enterprises01?igshid=1cgm5fmrszmf6" target="_blank" type="button" class="btn-floating  waves-effect pink social">
+  					<i class="fab fa-instagram"></i>
+  				</a>
+  				<!-- whatsapp -->
+  				<a href="https://wa.me/message/NNFDGKAEEGSFL1" target="_blank" type="button" class="btn-floating waves-effect green social">
+  					<i class="fab fa-whatsapp"></i>
+  				</a>
+
+
+  			</div>
+  		</div>
+  	</div>
+  	<div class="footer-copyright grey darken-4" style="border-top: blue 1.5px solid;">
+  		<div class="container">
+  			<p class="grey-text">Copyright Jyoti Enterprises © 2020. All rights reserved.</p>
+  			<p class="grey-text text-darken-2 right">Made with &#x2764; by <a href="https://instagram.com/theyugandhar?igshid=10h8ifgv6fkll" class="grey-text text-darken-2">Yugandhar Surya</a> and <a class="grey-text text-darken-2" href="https://instagram.com/_b_h_a_v_i_2900?igshid=z9jc3j8kmloc">P. Bhavishya</a></p>
+  		</div>
+  	</div>
+  </footer>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="jyoti.js"></script>
+
+</html>

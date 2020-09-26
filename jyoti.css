@@ -1,0 +1,175 @@
+/* My CSS */
+
+p{
+		font-family: 'Catamaran', sans-serif;
+}
+
+.brand-logo{
+	font-family: 'Catamaran', sans-serif;
+	font-weight: 700;
+	padding-left: 25px;
+}
+
+.fix{
+	padding-top: 5px;
+}
+
+img{
+	width: 100%;
+	height: 300px;
+	display: block;
+}
+
+.center{
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+@media only screen and (min-width: 768px ) {
+  .card {
+    max-width: 300px !important;
+  }
+	.sending{
+		max-width: 600px !important;
+	}
+}
+
+.parallax-container{
+	min-height: 280px;
+	height: auto;
+	/* position: fixed; */
+}
+
+img .sliders{
+	height: 100%;
+	/* width: auto; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/* Bhavishya's CSS */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abel", sans-serif;
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+ padding: 0 0px 50px 0px;
+}
+
+.header{
+  text-align: center;
+  padding:20px 8px;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  color: white;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: opacity(70%);
+}
+
+
+
+
+
+
+
+
+.fix{
+	padding-top: 5px;
+}
+
+img{
+	width: 100%;
+	height: 250px;
+	display: block;
+}
+
+.center{
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.parallax-container{
+	min-height: 280px;
+	height: auto;
+}
+
+
+
+.col{
+	margin:  10px 10px 10px 30px !important;
+}
+
+  .line{
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    background: #FF1847;
+}
+
+
+.social{
+	margin: 5px;
+}
+
+
+.nav-wrapper{
+background-color: black;
+}
+
+.contact-icon a i{
+	display: inline-block;
+	width: 1000px;
+	height: 50px;
+	float: left;
+}
+
+/* Bhavishya's css */
+
+nav a{
+    text-transform: uppercase;
+    font-weight: 50;
+   }
+
+
+nav li a {
+	color: #FFF;
+	transition: all 0.3s;
+	position: relative;
+}
+
+nav li a::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+	transition: all 0.3s;
+	border-top: rgba(0, 31, 255, 0.93) 3px solid;
+	border-bottom: rgba(0, 31, 255, 0.93) 3px solid;
+	transform: scale(0.1, 1);
+}
+
+nav li a:hover::before {
+	opacity: 1;
+	transform: scale(1, 1);
+	background-color: rgba(159, 159, 233, 0.48);
+}
