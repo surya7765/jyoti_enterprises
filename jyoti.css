@@ -53,6 +53,18 @@ img .sliders{
 
 /* Bhavishya's CSS */
 
+@media only screen and (min-width: 0)
+{
+	html {
+    font-size: 14px;
+    
+	}
+	.col-md-4 ,.col-sm-6 ,.col-xs-12{
+	   width: 200px;
+	   padding:0 45px 0 45px !important;	 
+	}
+
+}
 
 * {
   margin: 0;
