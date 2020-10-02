@@ -53,6 +53,7 @@ img .sliders{
 
 /* Bhavishya's CSS */
 
+/* optimised card for mobile view*/
 @media only screen and (min-width: 0)
 {
 	html {
@@ -92,13 +93,6 @@ img .sliders{
   background-repeat: no-repeat;
   backdrop-filter: opacity(70%);
 }
-
-
-
-
-
-
-
 
 .fix{
 	padding-top: 5px;
