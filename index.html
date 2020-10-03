@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="jyoti.css">
+  <!--Animate CSS-->
+  <link rel="stylesheet" href="animate.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.8/angular-material.min.css">
@@ -136,16 +138,16 @@
       <li class="divider blue center" style="width:250px;"></li>
       <div class="row">
         <div class="col s12 l4 center" style="padding: 50px;">
-          <i class="large material-icons circle" style="color: #2962ff;">access_time</i>
-          <h5 style="color: #448aff;font-family: 'Zilla Slab', serif;">Delivery on time</h5>
+          <i class="large material-icons circle wow fadeInUp" style="color: #2962ff;">access_time</i>
+          <h5 class="wow fadeInDown" style="color: #448aff;font-family: 'Zilla Slab', serif;">Delivery on time</h5>
         </div>
         <div class="col s12 l3 center" style="padding: 50px;">
-          <i class="large material-icons circle" style="color: #2962ff;">whatshot</i>
-          <h5 style="color: #448aff;font-family: 'Zilla Slab', serif;">Quality Products</h5>
+          <i class="large material-icons circle wow fadeInUp" style="color: #2962ff;">whatshot</i>
+          <h5 class="wow fadeInDown" style="color: #448aff;font-family: 'Zilla Slab', serif;">Quality Products</h5>
         </div>
         <div class="col s12 l4 center" style="padding: 50px;">
-          <i class="large material-icons circle" style="color: #2962ff;">favorite_border</i>
-          <h5 style="color: #448aff;font-family: 'Zilla Slab', serif;">People's Choice</h5>
+          <i class="large material-icons circle wow fadeInUp" style="color: #2962ff;">favorite_border</i>
+          <h5 class="wow fadeInDown" style="color: #448aff;font-family: 'Zilla Slab', serif;">People's Choice</h5>
         </div>
       </div>
     </div>
@@ -161,10 +163,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="blue-text text-darken-4 center" style="padding: 20px;  margin-left:-50px; font-family: 'Catamaran', sans-serif; font-weight:500px;">CATEGORIES</h2>
+          <h2 class="blue-text text-darken-4 center wow slideInRight" style="padding: 20px;  margin-left:-50px; font-family: 'Catamaran', sans-serif; font-weight:500px;">CATEGORIES</h2>
         </div>
       </div>
-      <div class="row">
+      <div class="row wow slideInLeft">
         <div class="col-md-4 col-sm-6 col-xs-12">
           <div class="card medium img z-depth-3 ">
             <div class="card-image waves-effect waves-block waves-light">
@@ -338,9 +340,9 @@
       <div class="container">
         <div class="row">
           <div class="col s12 m4 l2">
-            <h2 class="center " style="font-family: 'Varela Round', sans-serif;">About Us</h2>
+            <h2 class="center wow fadeInUp" style="font-family: 'Varela Round', sans-serif;">About Us</h2>
             <li class="divider blue center z-depth-3" style="width:250px;"></li><br>
-            <p class="grey-text text-darken-3" id="ab_nav">
+            <p class="grey-text text-darken-3 wow fadeInDown" id="ab_nav">
               JYOTI ENTERPRISES is a sculpture, statue, 3-D work on metal, wood, MDF and stone supplier firm. We provide work such as engraving, sculpting, designing, cutting, turning, polishing and grinding on various types of stone, wood and other
               materials.
               We love to elevate the lives of customers and help them to make the home of their dreams a reality !
@@ -362,9 +364,9 @@
   <!-- Let me know If you are interested -->
 
   <div class="container center blue lighten-5 z-depth-1 sending" style="border: 1px solid blue; border-radius: 30px; margin-top:50px;">
-    <h4 class="light blue-text text-darken-4" style="font-family: 'Grenze Gotisch', cursive;">Let us know if you are interested.</h4>
+    <h4 class="light blue-text text-darken-4 wow slideInLeft" style="font-family: 'Grenze Gotisch', cursive;">Let us know if you are interested.</h4>
     <div class="row" style="margin:20px;">
-      <form class="col s6" action="mailto:infojyotienterprises01@gmail.com" method="post" enctype="text/plain">
+      <form class="col s6 wow slideInRight" action="mailto:infojyotienterprises01@gmail.com" method="post" enctype="text/plain">
         <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" name="Name" type="text" class="validate" required>
@@ -394,9 +396,9 @@
 
   <section>
     <div class="container center white" style="margin-top:50px; margin-bottom:50px;">
-      <h3 class="light blue-text text-darken-4" style="font-family: 'Grenze Gotisch', cursive;">Testimonials</h3>
+      <h3 class="light blue-text text-darken-4 wow fadeInUp" style="font-family: 'Grenze Gotisch', cursive;">Testimonials</h3>
       <li class="divider blue center" style="width:300px;"></li>
-      <div class="carousel">
+      <div class="carousel wow fadeInDown">
         <a class="carousel-item"style="height:300px" style="height:300px">
           <div class="row">
             <div class="col s10 l4">
@@ -503,7 +505,7 @@
 
   </div>
 
-  <footer class="page-footer black">
+  <footer class="page-footer black wow fadeInDown">
   	<div class="container">
   		<div class="row">
   			<div class="col l6 s12">
@@ -563,5 +565,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="jyoti.js"></script>
-
+<!--Wow Js-->
+<script src="wow.js"></script>
+<script>
+  new WOW().init();
+</script>
 </html>
