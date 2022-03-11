@@ -8,7 +8,7 @@ With our highly experienced Techno- commercial management and strongly motivated
 
 HELP US MAKE THE WEB UI MORE INTERACTIVE.
 
-Visit this link for more details : https://jyotienterprises.netlify.app/
+Visit this link for more details : https://samyakstonemarket.netlify.com/
 
 ## License
 
