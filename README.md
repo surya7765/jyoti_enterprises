@@ -1,3 +1,7 @@
+# jyoti_enterprises
+
+A full fledged website for a small business.
+=======
 # Jyoti_enterprises
 
 JYOTI ENTERPRISES is a sculpture , statue , 3-D work on metal , wood , MDF and stone supplier firm. We provide work such as engraving , sculpting , designing , cutting , turning, polishing and grinding on various types of stone , wood and other materials.
