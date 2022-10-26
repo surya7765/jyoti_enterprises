@@ -1,28 +1,28 @@
 /* My CSS */
 
 p{
-		font-family: 'Catamaran', sans-serif;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .brand-logo{
-	font-family: 'Catamaran', sans-serif;
-	font-weight: 700;
-	padding-left: 25px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  padding-left: 25px;
 }
 
 .fix{
-	padding-top: 5px;
+  padding-top: 5px;
 }
 
 img{
-	width: 100%;
-	height: 300px;
-	display: block;
+  width: 100%;
+  height: 300px;
+  display: block;
 }
 
 .center{
-	margin: 0 auto;
-	text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
@@ -30,20 +30,20 @@ img{
   .card {
     max-width: 300px !important;
   }
-	.sending{
-		max-width: 600px !important;
-	}
+  .sending{
+    max-width: 600px !important;
+  }
 }
 
 .parallax-container{
-	min-height: 280px;
-	height: auto;
-	/* position: fixed; */
+  min-height: 280px;
+  height: auto;
+  /* position: fixed; */
 }
 
 img .sliders{
-	height: 100%;
-	/* width: auto; */
+  height: 100%;
+  /* width: auto; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,30 +89,30 @@ img .sliders{
 
 
 .fix{
-	padding-top: 5px;
+  padding-top: 5px;
 }
 
 img{
-	width: 100%;
-	height: 250px;
-	display: block;
+  width: 100%;
+  height: 250px;
+  display: block;
 }
 
 .center{
-	margin: 0 auto;
-	text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
 .parallax-container{
-	min-height: 280px;
-	height: auto;
+  min-height: 280px;
+  height: auto;
 }
 
 
 
 .col{
-	margin:  10px 10px 10px 30px !important;
+  margin:  10px 10px 10px 30px !important;
 }
 
   .line{
@@ -124,7 +124,7 @@ img{
 
 
 .social{
-	margin: 5px;
+  margin: 5px;
 }
 
 
@@ -133,13 +133,27 @@ background-color: black;
 }
 
 .contact-icon a i{
-	display: inline-block;
-	width: 1000px;
-	height: 50px;
-	float: left;
+  display: inline-block;
+  width: 1000px;
+  height: 50px;
+  float: left;
 }
 
 /* Bhavishya's css */
+
+
+@media screen and (max-width: 600px) {
+  .card.medium {
+    margin: 10px 50px ;
+  }
+
+  .col.feature{
+    padding: 15px !important;
+   margin-top:40px !important;
+   }
+}
+
+
 
 nav a{
     text-transform: uppercase;
@@ -148,28 +162,28 @@ nav a{
 
 
 nav li a {
-	color: #FFF;
-	transition: all 0.3s;
-	position: relative;
+  color: #FFF;
+  transition: all 0.3s;
+  position: relative;
 }
 
 nav li a::before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	opacity: 0;
-	transition: all 0.3s;
-	border-top: rgba(0, 31, 255, 0.93) 3px solid;
-	border-bottom: rgba(0, 31, 255, 0.93) 3px solid;
-	transform: scale(0.1, 1);
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top: rgba(0, 31, 255, 0.93) 3px solid;
+  border-bottom: rgba(0, 31, 255, 0.93) 3px solid;
+  transform: scale(0.1, 1);
 }
 
 nav li a:hover::before {
-	opacity: 1;
-	transform: scale(1, 1);
-	background-color: rgba(159, 159, 233, 0.48);
+  opacity: 1;
+  transform: scale(1, 1);
+  background-color: rgba(159, 159, 233, 0.48);
 }
